@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'sahel';
+    src: url('../../assets/font/Sahel.woff');
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #34BEA5;
+    width: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+::-webkit-scrollbar {
+     width: 5px;
+ }
+
+::-webkit-scrollbar-track {
+     background: #9ae6b4;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #34BEA5;
+    border-radius: 1.5rem;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #22ab8a;
+}
+
+::selection {
+    background: #34bea5; /* WebKit/Blink Browsers */
+    color: white;
+}
+
+::-moz-selection {
+    background: #34bea5; /* WebKit/Blink Browsers */
+    color: white;
+}
+
+body {
+    font-family: 'sahel' !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color:  #F0F0F9 !important;
+    direction: rtl;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.with-three-dot {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
